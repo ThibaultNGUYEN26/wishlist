@@ -1,0 +1,25 @@
+.silk-shell {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at top left, rgba(104, 73, 255, 0.24), transparent 26%),
+    radial-gradient(circle at 78% 12%, rgba(93, 56, 255, 0.12), transparent 22%),
+    linear-gradient(145deg, #080511 0%, #090612 52%, #0d0a1a 100%);
+}
+
+.silk-canvas,
+.silk-tint {
+  position: absolute !important;
+  inset: 0;
+}
+
+.silk-tint {
+  background:
+    radial-gradient(circle at 15% 20%, rgba(178, 155, 255, 0.12), transparent 20%),
+    radial-gradient(circle at 85% 14%, rgba(115, 83, 255, 0.1), transparent 18%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 24%, rgba(5, 3, 16, 0.18));
+  mix-blend-mode: screen;
+}

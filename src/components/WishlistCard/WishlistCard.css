@@ -1,0 +1,166 @@
+.wish-card {
+  animation: rise-in 650ms ease both;
+  animation-delay: calc(var(--card-index) * 110ms);
+  width: 100%;
+}
+
+.wish-flip-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  perspective: 1400px;
+  transition: transform 220ms ease;
+}
+
+.wish-flip-button.is-flipped {
+  position: relative;
+  z-index: 3;
+  transform: translate(40px, 0px);
+}
+
+.wish-flip-inner {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  transform-style: preserve-3d;
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.wish-flip-button.is-flipped .wish-flip-inner {
+  transform: rotateY(180deg);
+}
+
+.wish-face {
+  width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.wish-face-back {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(180deg);
+}
+
+.wish-description-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 320px;
+  padding: 1.4rem;
+  border: 1px solid rgba(163, 140, 255, 0.16);
+  border-radius: 22px;
+  background:
+    radial-gradient(circle at top left, rgba(120, 86, 255, 0.18), transparent 30%),
+    linear-gradient(180deg, rgba(25, 15, 62, 0.94), rgba(11, 8, 27, 0.96));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.26);
+  text-align: left;
+}
+
+.wish-back-top {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.wish-back-label,
+.wish-back-hint {
+  color: rgba(201, 184, 255, 0.78);
+  font-size: 0.76rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.wish-shop-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2rem;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid rgba(188, 172, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(122, 90, 255, 0.16);
+  color: #f4efff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.wish-shop-link:hover {
+  background: rgba(122, 90, 255, 0.26);
+  border-color: rgba(206, 193, 255, 0.34);
+  transform: translateY(-1px);
+}
+
+.wish-description-panel h3 {
+  margin: 1rem 0 0;
+  color: #ffffff;
+  font-family: "Fraunces", "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.65rem;
+  line-height: 1;
+}
+
+.wish-description-panel p {
+  margin: 1rem 0 0;
+  color: rgba(246, 241, 255, 0.76);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.wish-back-hint {
+  margin-top: 1.5rem;
+}
+
+.wish-overlay {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 0.15rem;
+}
+
+.wish-overlay-title {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Fraunces", "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.1rem;
+  line-height: 1.05;
+  text-align: right;
+  text-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 900px) {
+  .wish-flip-button.is-flipped {
+    transform: translate(24px, 0px);
+  }
+}
+
+@media (max-width: 640px) {
+  .wish-flip-button.is-flipped {
+    transform: translate(14px, 0px);
+  }
+
+  .wish-back-top {
+    flex-wrap: wrap;
+  }
+
+  .wish-description-panel {
+    min-height: 320px;
+    padding: 1.1rem;
+    border-radius: 18px;
+  }
+
+  .wish-overlay {
+    justify-content: start;
+  }
+
+  .wish-overlay-title {
+    text-align: left;
+  }
+}
