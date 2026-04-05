@@ -151,6 +151,12 @@
     --wishlist-card-height: clamp(260px, 78vw, 310px);
   }
 
+  .wish-face-front,
+  .wish-face-back {
+    position: absolute;
+    inset: 0;
+  }
+
   .wish-flip-button {
     perspective: none;
   }

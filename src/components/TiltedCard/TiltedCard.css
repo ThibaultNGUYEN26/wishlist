@@ -63,6 +63,15 @@
     display: block;
   }
 
+  .tilted-card-figure {
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  .tilted-card-inner {
+    width: 100%;
+  }
+
   .tilted-card-img {
     border-radius: 16px;
   }
