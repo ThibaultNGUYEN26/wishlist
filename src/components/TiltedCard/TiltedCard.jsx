@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { motion, useMotionValue, useSpring } from 'motion/react'
 import './TiltedCard.css'
 
@@ -24,6 +24,7 @@ function TiltedCard({
   displayOverlayContent = false,
 }) {
   const ref = useRef(null)
+  const [isTouchDevice, setIsTouchDevice] = useState(false)
 
   const x = useMotionValue(0)
   const y = useMotionValue(0)
@@ -39,8 +40,29 @@ function TiltedCard({
 
   const [lastY, setLastY] = useState(0)
 
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.matchMedia) {
+      return
+    }
+
+    const mediaQuery = window.matchMedia('(hover: none), (pointer: coarse)')
+    const updateTouchState = (event) => {
+      setIsTouchDevice(event.matches)
+    }
+
+    setIsTouchDevice(mediaQuery.matches)
+
+    if (mediaQuery.addEventListener) {
+      mediaQuery.addEventListener('change', updateTouchState)
+      return () => mediaQuery.removeEventListener('change', updateTouchState)
+    }
+
+    mediaQuery.addListener(updateTouchState)
+    return () => mediaQuery.removeListener(updateTouchState)
+  }, [])
+
   const handleMouse = (event) => {
-    if (!ref.current) {
+    if (!ref.current || isTouchDevice) {
       return
     }
 
@@ -63,6 +85,10 @@ function TiltedCard({
   }
 
   const handleMouseEnter = () => {
+    if (isTouchDevice) {
+      return
+    }
+
     scale.set(scaleOnHover)
     opacity.set(1)
   }
@@ -98,9 +124,9 @@ function TiltedCard({
         style={{
           width: imageWidth,
           height: imageHeight,
-          rotateX,
-          rotateY,
-          scale,
+          rotateX: isTouchDevice ? 0 : rotateX,
+          rotateY: isTouchDevice ? 0 : rotateY,
+          scale: isTouchDevice ? 1 : scale,
         }}
       >
         <motion.img
@@ -118,7 +144,7 @@ function TiltedCard({
         ) : null}
       </motion.div>
 
-      {showTooltip ? (
+      {showTooltip && !isTouchDevice ? (
         <motion.figcaption
           className="tilted-card-caption"
           style={{
