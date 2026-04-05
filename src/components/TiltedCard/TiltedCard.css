@@ -63,6 +63,14 @@
     display: block;
   }
 
+  .tilted-card-img {
+    border-radius: 16px;
+  }
+
+  .tilted-card-overlay {
+    padding: 0.75rem;
+  }
+
   .tilted-card-caption {
     display: none;
   }

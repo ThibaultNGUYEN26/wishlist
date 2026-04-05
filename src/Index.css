@@ -40,11 +40,15 @@ body {
 }
 
 @media (max-width: 900px) {
+  .page-shell {
+    width: min(100% - 1.5rem, 100%);
+    padding: 1.25rem 0 3rem;
+  }
 }
 
 @media (max-width: 640px) {
   .page-shell {
     width: min(100% - 1rem, 100%);
-    padding-top: 0.75rem;
+    padding: 0.85rem 0 2.4rem;
   }
 }

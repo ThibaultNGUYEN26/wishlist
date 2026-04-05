@@ -27,10 +27,10 @@ function WishlistCard({ item, index }) {
             <TiltedCard
               altText={item.altText ?? item.name}
               captionText={item.captionText ?? item.name}
-              containerHeight="320px"
+              containerHeight="var(--wishlist-card-height)"
               containerWidth="100%"
               displayOverlayContent
-              imageHeight="320px"
+              imageHeight="var(--wishlist-card-height)"
               imageSrc={item.imageSrc}
               imageWidth="100%"
               overlayContent={
