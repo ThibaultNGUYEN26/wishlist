@@ -157,6 +157,11 @@
     inset: 0;
   }
 
+  .wish-face-front {
+    width: calc(100% + 36px);
+    transform: translateX(-36px);
+  }
+
   .wish-flip-button {
     perspective: none;
   }
