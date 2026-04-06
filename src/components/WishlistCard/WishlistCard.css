@@ -193,12 +193,12 @@
   }
 
   .wish-overlay {
-    justify-content: start;
+    justify-content: end;
     padding: 0.75rem;
   }
 
   .wish-overlay-title {
     font-size: 1rem;
-    text-align: left;
+    text-align: right;
   }
 }
