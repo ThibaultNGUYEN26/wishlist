@@ -149,6 +149,7 @@
 @media (max-width: 640px) {
   .wish-card {
     --wishlist-card-height: clamp(260px, 78vw, 310px);
+    width: 100%;
   }
 
   .wish-face-front,
@@ -158,8 +159,7 @@
   }
 
   .wish-face-front {
-    width: calc(100% + 36px);
-    transform: translateX(-36px);
+    transform: translate(-40px, -15px);
   }
 
   .wish-flip-button {

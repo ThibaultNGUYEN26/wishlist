@@ -11,10 +11,12 @@ function WishlistGrid({ items }) {
         </div>
       </div>
 
-      <div className="wishlist-grid">
-        {items.map((item, index) => (
-          <WishlistCard key={item.name} item={item} index={index} />
-        ))}
+      <div className="wishlist-grid-frame">
+        <div className="wishlist-grid">
+          {items.map((item, index) => (
+            <WishlistCard key={item.name} item={item} index={index} />
+          ))}
+        </div>
       </div>
     </section>
   )
