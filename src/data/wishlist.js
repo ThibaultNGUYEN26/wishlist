@@ -79,4 +79,28 @@ export const wishlistItems = [
     imageSrc: '/images/eaa.png',
     shopUrl: 'https://www.bulk.com/fr/products/acides-amines-essentiels/bpb-eaa-0000?o=MTc5LTY5LDE3OC0zMDc=',
   },
+  {
+    name: 'Powder containers',
+    description: 'The best way to store my creatine and EAA powders when I go to work.',
+    captionText: 'Powder Containers',
+    altText: 'A container of powder on a clean surface',
+    imageSrc: '',
+    shopUrl: 'https://www.amazon.fr/BlenderBottle-Starter-conservation-poign%C3%A9e-transport/dp/B00CZAQIZ4/ref=sr_1_11?sr=8-11&srs=1693223031&xpid=kQ0QrNkCUCUen',
+  },
+  {
+    name: 'Glass Shaker Bottle',
+    description: 'Glass shaker bottle, more convenient to clean. Need at least 500ml capacity.',
+    captionText: 'Glass Shaker Bottle',
+    altText: 'A glass shaker bottle on a clean surface',
+    imageSrc: '',
+    shopUrl: 'https://www.amazon.fr/BlenderBottle-Starter-conservation-poign%C3%A9e-transport/dp/B00CZAQIZ4/ref=sr_1_11?sr=8-11&srs=1693223031&xpid=kQ0QrNkCUCUen',
+  },
+  {
+    name: 'Gymshark',
+    description: 'Gymshark apparel for a stylish workout look.',
+    captionText: 'Gymshark',
+    altText: 'A person wearing Gymshark apparel',
+    imageSrc: '',
+    shopUrl: 'https://www.gymshark.com/',
+  },
 ]
