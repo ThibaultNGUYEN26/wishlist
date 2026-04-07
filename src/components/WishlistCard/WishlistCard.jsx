@@ -14,7 +14,13 @@ function WishlistCard({ item, index }) {
   }
 
   return (
-    <article className="wish-card" style={{ '--card-index': index }}>
+    <article
+      className="wish-card"
+      style={{
+        '--card-index': index,
+        '--card-title-color': item.text ?? '#ffffff',
+      }}
+    >
       <div
         className={`wish-flip-button ${isFlipped ? 'is-flipped' : ''}`}
         onClick={flipCard}
