@@ -120,8 +120,35 @@ export const wishlistItems = [
     description: "Case to protect my Galaxy Buds Pro 3.",
     captionText: 'Galaxy Buds Pro 3 Case',
     altText: 'Galaxy Buds Pro 3 Case',
-    imageSrc: 'https://m.media-amazon.com/images/I/81arlBujd+L._AC_SL1500_.jpg',
+    imageSrc: '/images/coque_buds.png',
     shopUrl: 'https://www.amazon.fr/MHYALUDO-Military-Anti-Fall-Earphone-Cleaning/dp/B0DMDWX3WH/ref=sr_1_1_sspa?crid=QUGRCWD4IUSB&dib=eyJ2IjoiMSJ9.Ep4Hcyq7oFKe_NUlNA6Cl1NdxbgqED8Sifdh0nU_JjN7QRjYWZp8PJp0PL_NtUxCf_vSBJ7xj7QayWxv6QsQlq6BpRN04HcOUuc_rcxQkWkCzZ6y8PgKvcjYpPyRes071i781diIIpWf9dqPOVsT8eOXoUgDZdqXKFCW3gjxjrxs2NpbWRMxqoJemOglpPQMkePWd39X9XueYQ3QAFYUTfen9P1EJxiogR45s9E5RjUt4tPxivlPyaNj3lFedkYvmJcZ1sBOcqkRdud-jHYuOX38AbPRGJkdMwP2xv0R_Wo.SFXPIwY2PZKQzChQqyxYMMOkNDDv1zKL2CbCNAxrIvs&dib_tag=se&keywords=coque%2Bgalaxy%2Bbud%2B3%2Bpro&qid=1775636955&sprefix=%2Caps%2C281&sr=8-1-spons&aref=pNcopnLfNQ&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
+    text: '#000'
+  },
+  {
+    name: 'Galaxy Watch 7 44mm Bracelet',
+    description: "New bracelet for my Galaxy Watch 7.",
+    captionText: 'Galaxy Watch 7 44mm Bracelet',
+    altText: 'Galaxy Watch 7 44mm Bracelet',
+    imageSrc: '/images/bracelet_watch_7.png',
+    shopUrl: 'https://www.amazon.fr/Fullmosa-Bracelets-Inoxydable-Remplacement-D%C3%A9gagement/dp/B07F29V7JN/ref=sr_1_16?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-16',
+    text: '#000'
+  },
+  {
+    name: 'Omega3',
+    description: 'The best supplement for overall health, and I want to take care of myself. (270 capsules)',
+    captionText: 'Omega3',
+    altText: 'A container of omega-3 supplements on a clean surface',
+    imageSrc: '/images/omega3.png',
+    shopUrl: 'https://www.bulk.com/fr/products/omega-3-huile-de-poisson-capsules-molles-1000mg/bpb-omg3-0000?o=MjA1LTE3MzU4',
+    text: '#000'
+  },
+  {
+    name: 'Marine Collagen & Vitamin C',
+    description: 'The best supplement for articular health, and I want to take care of my joints. (180 capsules)',
+    captionText: 'Marine Collagen & Vitamin C',
+    altText: 'A container of marine collagen and vitamin C supplements on a clean surface',
+    imageSrc: '/images/collagen.png',
+    shopUrl: 'https://www.bulk.com/fr/products/gelules-de-collagene-marin-et-de-vitamine-c/bpb-mcol-caps?o=MjA1LTg2',
     text: '#000'
   },
 ]
