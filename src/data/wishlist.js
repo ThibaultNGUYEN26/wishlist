@@ -70,7 +70,7 @@ export const wishlistItems = [
   },
   {
     name: 'Vietnam Travel',
-    description: 'Discover the vibrant culture, stunning landscapes, and rich history of Vietnam. #FoodFoodFood',
+    description: 'One day I will go there. #FoodFoodFood',
     captionText: 'Vietnam Travel',
     altText: 'A beautiful view of Vietnam.',
     imageSrc: 'https://imgs.search.brave.com/x2r77XIp7iFsLpOjIZAXnEis1EKvUco1GP2KGrKtAOA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMzk2/NzkyOS5qcGc',
@@ -152,4 +152,3 @@ export const wishlistItems = [
     text: '#000'
   },
 ]
-
