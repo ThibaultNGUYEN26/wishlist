@@ -115,4 +115,13 @@ export const wishlistItems = [
     shopUrl: 'https://www.atoutcubes.com/fr/timers/47104-speed-stacks-g5-pro-timer-4000000003717.html',
     text: '#000'
   },
+  {
+    name: 'Galaxy Buds Pro 3 Case',
+    description: "Case to protect my Galaxy Buds Pro 3.",
+    captionText: 'Galaxy Buds Pro 3 Case',
+    altText: 'Galaxy Buds Pro 3 Case',
+    imageSrc: 'https://m.media-amazon.com/images/I/81arlBujd+L._AC_SL1500_.jpg',
+    shopUrl: 'https://www.amazon.fr/MHYALUDO-Military-Anti-Fall-Earphone-Cleaning/dp/B0DMDWX3WH/ref=sr_1_1_sspa?crid=QUGRCWD4IUSB&dib=eyJ2IjoiMSJ9.Ep4Hcyq7oFKe_NUlNA6Cl1NdxbgqED8Sifdh0nU_JjN7QRjYWZp8PJp0PL_NtUxCf_vSBJ7xj7QayWxv6QsQlq6BpRN04HcOUuc_rcxQkWkCzZ6y8PgKvcjYpPyRes071i781diIIpWf9dqPOVsT8eOXoUgDZdqXKFCW3gjxjrxs2NpbWRMxqoJemOglpPQMkePWd39X9XueYQ3QAFYUTfen9P1EJxiogR45s9E5RjUt4tPxivlPyaNj3lFedkYvmJcZ1sBOcqkRdud-jHYuOX38AbPRGJkdMwP2xv0R_Wo.SFXPIwY2PZKQzChQqyxYMMOkNDDv1zKL2CbCNAxrIvs&dib_tag=se&keywords=coque%2Bgalaxy%2Bbud%2B3%2Bpro&qid=1775636955&sprefix=%2Caps%2C281&sr=8-1-spons&aref=pNcopnLfNQ&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1',
+    text: '#000'
+  },
 ]
