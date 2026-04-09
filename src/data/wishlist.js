@@ -152,3 +152,4 @@ export const wishlistItems = [
     text: '#000'
   },
 ]
+
