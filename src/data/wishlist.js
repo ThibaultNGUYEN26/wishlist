@@ -9,7 +9,7 @@ export const wishlistItems = [
     name: 'Moyu Weilong v11 MagLev UV',
     description: 'The best 3x3 on the market imo.',
     captionText: '3x3 Puzzle Cube',
-    altText: 'A silver magnetic levitation cube on a soft neutral surface',
+    altText: 'A silver magnetic levitation cube',
     imageSrc: 'https://kubekings.fr/42070-medium_default/moyu-weilong-v11-3x3-20-magnet-ball-core-maglev-uv.jpg',
     shopUrl: 'https://www.atoutcubes.com/fr/meilleur-cube-3x3/67579-moyu-weilong-v11-3x3-20-magnets-ball-core-maglev-uv-4000000000907.html',
     text: '#000'
@@ -18,7 +18,7 @@ export const wishlistItems = [
     name: 'Keychron K2 HE 75%',
     description: 'I want to change and I love the design and the sound of this keyboard.',
     captionText: 'Mechanical Keyboard',
-    altText: 'A minimalist mechanical keyboard photographed against a clean background',
+    altText: 'A minimalist mechanical keyboard photographed',
     imageSrc: '/images/keychron_he_k2.png',
     shopUrl: 'https://keychron.fr/fr/products/keychron-k2-he-wireless-magnetic-switch-custom-keyboard-us-ansi-layout?variant=40121684164737',
     text: '#fff'
@@ -27,7 +27,7 @@ export const wishlistItems = [
     name: 'Renpho Smart Scale MorphoScan',
     description: 'Full morphological body composition analysis and Renpho because I already have the app.',
     captionText: 'Smart Scale',
-    altText: 'A sleek smart scale on a modern countertop',
+    altText: 'A sleek smart scale',
     imageSrc: '/images/renpho_pese.png',
     shopUrl: 'https://www.amazon.fr/RENPHO-Pese-personnes-Intelligent-%C3%89lectrodes-Pese-personne/dp/B0F18PQH6N/ref=sr_1_1_sspa?sr=8-1-spons&aref=908oDf1bFi&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY',
     text: '#000'
@@ -36,7 +36,7 @@ export const wishlistItems = [
     name: 'Shaker Bottle',
     description: '650mL, 2 compartments for powder.',
     captionText: 'Shaker Bottle',
-    altText: 'A shaker bottle on a clean surface',
+    altText: 'A shaker bottle',
     imageSrc: '/images/shaker.png',
     shopUrl: 'https://www.amazon.fr/Blender-Bottle-847280068203-Unisex-Adult-22-Ounce/dp/B08VRP5DLL/ref=sr_1_16?sr=8-16&srs=1693223031&xpid=g9EtquJ3_jnKG',
     text: '#000'
@@ -45,7 +45,7 @@ export const wishlistItems = [
     name: 'GAN 251 M Pro',
     description: 'The best 2x2 on the market because I broke mine years ago and never got a new one.',
     captionText: '2x2 Puzzle Cube',
-    altText: 'A sleek 2x2 puzzle cube on a clean surface',
+    altText: 'A sleek 2x2 puzzle cube',
     imageSrc: 'https://imgs.search.brave.com/-bj6B9jOj03s5aH_6jcbpGadEp9j_9xI8Wr6gwjsGzE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rZXdi/ei5jby51ay9jZG4v/c2hvcC9wcm9kdWN0/cy9nYW4tMjUxLW0t/cHJvLXVrLXNwZWVk/LWN1YmUtc2hvcC10/b3kta2V3Ynp1ay0y/MC5qcGc_dj0xNzQ2/OTcxNjI1',
     shopUrl: 'https://www.atoutcubes.com/fr/cube-2x2/48969-gan-251-m-pro-2x2-4000000006022.html',
     text: '#fff'
@@ -54,7 +54,7 @@ export const wishlistItems = [
     name: 'Renpho Smart Tape Measure',
     description: 'Still Renpho to keep the same app and the tape makes me laugh.',
     captionText: 'Smart Tape Measure',
-    altText: 'A sleek smart tape measure on a modern countertop',
+    altText: 'A sleek smart tape measure',
     imageSrc: '/images/renpho_ruban.png',
     shopUrl: 'https://www.amazon.fr/RENPHO-r%C3%A9tractable-application-musculation-centim%C3%A8tres/dp/B082W886W9/ref=sr_1_2_sspa?sr=8-2-spons&aref=rf0NkEyr3l&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1',
     text: '#000'
@@ -63,7 +63,7 @@ export const wishlistItems = [
     name: 'Creatine Monohydrate',
     description: 'The best supplement for strength and muscle gain, and I want to get stronger. (Flavorless)',
     captionText: 'Creatine Monohydrate',
-    altText: 'A container of creatine monohydrate on a clean surface',
+    altText: 'A container of creatine monohydrate',
     imageSrc: '/images/creatine.png',
     shopUrl: 'https://www.bulk.com/fr/products/creatine-monohydrate-eu/bpb-cmon-0000-eu1?o=MTc5LTI1LDE3OC0zMg==',
     text: '#fff'
@@ -82,10 +82,19 @@ export const wishlistItems = [
     name: 'Essential Amino Acids',
     description: 'The best supplement for recovery and muscle gain, and I want to recover better. (Orange/peach flavor)',
     captionText: 'Essential Amino Acids',
-    altText: 'A container of essential amino acids on a clean surface',
+    altText: 'A container of essential amino acids',
     imageSrc: '/images/eaa.png',
     shopUrl: 'https://www.bulk.com/fr/products/acides-amines-essentiels/bpb-eaa-0000?o=MTc5LTY5LDE3OC0zMDc=',
     text: '#fff'
+  },
+  {
+    name: 'Omega3',
+    description: 'The best supplement for overall health, and I want to take care of myself. (270 capsules)',
+    captionText: 'Omega3',
+    altText: 'A container of omega-3 supplements',
+    imageSrc: '/images/omega3.png',
+    shopUrl: 'https://www.bulk.com/fr/products/omega-3-huile-de-poisson-capsules-molles-1000mg/bpb-omg3-0000?o=MjA1LTE3MzU4',
+    text: '#000'
   },
   {
     name: 'Hussein.fht',
@@ -98,6 +107,15 @@ export const wishlistItems = [
     text: '#fff'
   },
   {
+    name: 'Marine Collagen & Vitamin C',
+    description: 'The best supplement for articular health, and I want to take care of my joints. (180 capsules)',
+    captionText: 'Marine Collagen & Vitamin C',
+    altText: 'A container of marine collagen and vitamin C supplements',
+    imageSrc: '/images/collagen.png',
+    shopUrl: 'https://www.bulk.com/fr/products/gelules-de-collagene-marin-et-de-vitamine-c/bpb-mcol-caps?o=MjA1LTg2',
+    text: '#000'
+  },
+  {
     name: 'Hoodie Gymshark',
     description: 'Hoodie Gymshark Conditioning Club, size S.',
     captionText: 'Gymshark Hoodie',
@@ -108,7 +126,7 @@ export const wishlistItems = [
   },
   {
     name: 'G5 Pro Timer',
-    description: "Best pro timer for Rubik's Cube",
+    description: "Best pro timer for Rubik's Cube, because I want to upgrade mine.",
     captionText: 'G5 Pro Timer',
     altText: 'G5 Pro Timer',
     imageSrc: 'https://www.atoutcubes.com/47105-thickbox_default/speed-stacks-g5-pro-timer.jpg',
@@ -134,21 +152,39 @@ export const wishlistItems = [
     text: '#000'
   },
   {
-    name: 'Omega3',
-    description: 'The best supplement for overall health, and I want to take care of myself. (270 capsules)',
-    captionText: 'Omega3',
-    altText: 'A container of omega-3 supplements on a clean surface',
-    imageSrc: '/images/omega3.png',
-    shopUrl: 'https://www.bulk.com/fr/products/omega-3-huile-de-poisson-capsules-molles-1000mg/bpb-omg3-0000?o=MjA1LTE3MzU4',
+    name: 'Gan Megaminx V2 MagLev UV',
+    description: 'The best Megaminx on the market in black not gray.',
+    captionText: 'Gan Megaminx V2 MagLev UV',
+    altText: 'Gan Megaminx V2 MagLev UV',
+    imageSrc: 'https://www.atoutcubes.com/71487-thickbox_default/gan-megaminx-v2-maglev-uv.jpg',
+    shopUrl: 'https://www.atoutcubes.com/fr/megaminx/67084-66535-gan-megaminx-v2-maglev-uv-4000000006091.html#/3-couleur-noir',
     text: '#000'
   },
   {
-    name: 'Marine Collagen & Vitamin C',
-    description: 'The best supplement for articular health, and I want to take care of my joints. (180 capsules)',
-    captionText: 'Marine Collagen & Vitamin C',
-    altText: 'A container of marine collagen and vitamin C supplements on a clean surface',
-    imageSrc: '/images/collagen.png',
-    shopUrl: 'https://www.bulk.com/fr/products/gelules-de-collagene-marin-et-de-vitamine-c/bpb-mcol-caps?o=MjA1LTg2',
+    name: 'S23 Ultra Case - Avengers Cartoon Style',
+    description: 'I need a new phone case. Standard, no need for MagSafe.',
+    captionText: 'S23 Ultra Case - Avengers Cartoon Style',
+    altText: 'S23 Ultra Case - Avengers Cartoon Style',
+    imageSrc: 'images/avengers_cartoon.png',
+    shopUrl: 'https://rhinoshield.fr/design-studio/collections/marvel/OZ61?identification=solidsuit&device=samsung-galaxy-s23-ultra&device_color=black&product_line=69&spec=52&from=ip_page',
+    text: '#000'
+  },
+  {
+    name: 'S23 Ultra Case - Avengers Chibi Style',
+    description: 'I need a new phone case. Standard, no need for MagSafe.',
+    captionText: 'S23 Ultra Case - Avengers Chibi Style',
+    altText: 'S23 Ultra Case - Avengers Chibi Style',
+    imageSrc: 'images/avengers_chibi.png',
+    shopUrl: 'https://rhinoshield.fr/design-studio/collections/marvel/OZ28?identification=solidsuit&device=samsung-galaxy-s23-ultra&device_color=black&product_line=69&spec=52&from=ip_page',
+    text: '#000'
+  },
+  {
+    name: 'S23 Ultra Case - Rocket Raccoon',
+    description: 'I need a new phone case. Standard, no need for MagSafe.',
+    captionText: 'S23 Ultra Case - Rocket Raccoon',
+    altText: 'S23 Ultra Case - Rocket Raccoon',
+    imageSrc: 'images/rocket.png',
+    shopUrl: 'https://rhinoshield.fr/design-studio/collections/marvel/OZ63?identification=solidsuit&device=samsung-galaxy-s23-ultra&device_color=black&product_line=69&spec=52&from=ip_page',
     text: '#000'
   },
 ]
