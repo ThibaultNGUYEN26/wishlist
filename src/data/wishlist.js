@@ -159,32 +159,5 @@ export const wishlistItems = [
     imageSrc: 'https://www.atoutcubes.com/71487-thickbox_default/gan-megaminx-v2-maglev-uv.jpg',
     shopUrl: 'https://www.atoutcubes.com/fr/megaminx/67084-66535-gan-megaminx-v2-maglev-uv-4000000006091.html#/3-couleur-noir',
     text: '#000'
-  },
-  {
-    name: 'S23 Ultra Case - Avengers Cartoon Style',
-    description: 'I need a new phone case. Standard, no need for MagSafe.',
-    captionText: 'S23 Ultra Case - Avengers Cartoon Style',
-    altText: 'S23 Ultra Case - Avengers Cartoon Style',
-    imageSrc: 'images/avengers_cartoon.png',
-    shopUrl: 'https://rhinoshield.fr/design-studio/collections/marvel/OZ61?identification=solidsuit&device=samsung-galaxy-s23-ultra&device_color=black&product_line=69&spec=52&from=ip_page',
-    text: '#000'
-  },
-  {
-    name: 'S23 Ultra Case - Avengers Chibi Style',
-    description: 'I need a new phone case. Standard, no need for MagSafe.',
-    captionText: 'S23 Ultra Case - Avengers Chibi Style',
-    altText: 'S23 Ultra Case - Avengers Chibi Style',
-    imageSrc: 'images/avengers_chibi.png',
-    shopUrl: 'https://rhinoshield.fr/design-studio/collections/marvel/OZ28?identification=solidsuit&device=samsung-galaxy-s23-ultra&device_color=black&product_line=69&spec=52&from=ip_page',
-    text: '#000'
-  },
-  {
-    name: 'S23 Ultra Case - Rocket Raccoon',
-    description: 'I need a new phone case. Standard, no need for MagSafe.',
-    captionText: 'S23 Ultra Case - Rocket Raccoon',
-    altText: 'S23 Ultra Case - Rocket Raccoon',
-    imageSrc: 'images/rocket.png',
-    shopUrl: 'https://rhinoshield.fr/design-studio/collections/marvel/OZ63?identification=solidsuit&device=samsung-galaxy-s23-ultra&device_color=black&product_line=69&spec=52&from=ip_page',
-    text: '#000'
-  },
+  }
 ]
